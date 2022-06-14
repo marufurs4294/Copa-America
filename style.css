@@ -141,6 +141,9 @@ p{
 
 
 @media only screen and (max-width:688px){
+    body{
+        overflow-x: hidden;
+    }
     
     .top-banner{
         display: flex;
@@ -150,6 +153,15 @@ p{
     }
     .top-banner .banner-content{
         padding-bottom: 40px;
+    }
+    .top-banner img{
+        width: 377px;
+    }
+    .match-video{
+        align-items: center;
+    }
+    .match-title{
+        text-align: center;
     }
 
 .players{
