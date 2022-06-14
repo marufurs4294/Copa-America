@@ -171,9 +171,18 @@ p{
         height: auto;
     }
     .final-match{
+        width: 90%;
         text-align: center;
         justify-content: center;
     }
+    .match-video{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        padding:0 30px;
+    }
+    
 }
 
 @media(min-width:668px) and (max-width:992px){
@@ -195,6 +204,7 @@ p{
     .match-video{
         text-align: center;
     }
+    
 
 
    
