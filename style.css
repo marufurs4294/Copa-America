@@ -198,6 +198,15 @@ p{
 }
 
 @media(min-width:668px) and (max-width:992px){
+    .top-banner{
+        display: flex;
+        flex-direction: column;
+        background-color: aquamarine;
+        height: auto;
+    }
+    .banner-content {
+        padding-bottom: 50px;
+    }
     .players{
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -213,6 +222,7 @@ p{
         font-size: 30px;
         line-height: 30px;
     }
+   
     .match-video{
         text-align: center;
     }
