@@ -141,13 +141,11 @@ p{
 
 
 @media only screen and (max-width:688px){
-    body{
-        overflow-x: hidden;
-    }
+    
     
     .top-banner{
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
         background-color: aquamarine;
         height: auto;
     }
@@ -199,8 +197,8 @@ p{
 
 @media(min-width:668px) and (max-width:992px){
     .top-banner{
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
         background-color: aquamarine;
         height: auto;
     }
